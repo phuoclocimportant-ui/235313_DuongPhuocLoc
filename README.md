@@ -32,3 +32,9 @@ echo "window.__API_URL__ = \"${API_URL:-}\";" > /usr/share/nginx/html/config.js
 - URL ứng dụng: https://web-235313.onrender.com
 - Cách triển khai: Render Web Service chạy từ Docker image `locimportant/frontend:latest`
 - Biến môi trường: `API_URL` = URL backend API
+
+## Triển khai Frontend (Render)
+
+- URL ứng dụng: https://web-235313.onrender.com
+- Cách triển khai: Render Web Service chạy từ Docker image `locimportant/frontend:latest`
+- Biến môi trường: `API_URL` = URL backend API
