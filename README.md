@@ -45,3 +45,10 @@ echo "window.__API_URL__ = \"${API_URL:-}\";" > /usr/share/nginx/html/config.js
 - Kiểm tra: https://api-235313.onrender.com/health
 - Danh sách thiết bị: https://api-235313.onrender.com/api/devices
 - Biến môi trường trên Render: `MONGODB_URI`, `CORS_ORIGIN`
+
+## Triển khai Backend API (Render)
+
+- URL API: https://api-235313.onrender.com
+- Kiểm tra: https://api-235313.onrender.com/health
+- Danh sách thiết bị: https://api-235313.onrender.com/api/devices
+- Biến môi trường trên Render: `MONGODB_URI`, `CORS_ORIGIN`
