@@ -26,3 +26,9 @@ echo "window.__API_URL__ = \"${API_URL:-}\";" > /usr/share/nginx/html/config.js
 - Truy cập: http://localhost:3000
 - Biến `API_URL` là địa chỉ backend, đổi được khi triển khai mà không cần build lại image.
 - Docker Hub: https://hub.docker.com/r/locimportant/frontend
+
+## Triển khai Frontend (Render)
+
+- URL ứng dụng: https://web-235313.onrender.com
+- Cách triển khai: Render Web Service chạy từ Docker image `locimportant/frontend:latest`
+- Biến môi trường: `API_URL` = URL backend API
