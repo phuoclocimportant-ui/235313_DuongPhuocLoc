@@ -52,3 +52,14 @@ echo "window.__API_URL__ = \"${API_URL:-}\";" > /usr/share/nginx/html/config.js
 - Kiểm tra: https://api-235313.onrender.com/health
 - Danh sách thiết bị: https://api-235313.onrender.com/api/devices
 - Biến môi trường trên Render: `MONGODB_URI`, `CORS_ORIGIN`
+
+## Thông tin nộp bài
+
+| Trường | Nội dung |
+|---|---|
+| Link_GitHub | https://github.com/phuoclocimportant-ui/235313_DuongPhuocLoc |
+| Link_Docker_Backend | https://hub.docker.com/r/locimportant/backend |
+| Link_Docker_Frontend | https://hub.docker.com/r/locimportant/frontend |
+| Link_Render_App | https://web-235313.onrender.com |
+| Link_Render_API | https://api-235313.onrender.com |
+| Link_Data_MongoDB | Database: 235313_DuongPhuocLoc, Collection: devices (MongoDB Atlas) |
